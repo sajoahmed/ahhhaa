@@ -1,0 +1,324 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+
+@font-face{
+	font-family: "ChevinMedium",sans-serif;
+	  src: url(ChevinMedium/ChevinMedium.otf);
+
+}
+
+body{
+	font-family: "ChevinMedium",sans-serif;
+}
+header{
+	background-color: #643A79;
+
+}
+
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-size: 14px;
+    transition: all 0.4s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:	hover{
+	background-color: #08080838;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+header h1{
+	color: #fff;
+	text-align: center;
+}
+.btn{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 300;
+	padding: 14px 60px;
+	border-radius: 5px;
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+
+.btn-orange{
+	background-color: #EB7D4B;
+	border-bottom: 7px solid #d26939;
+	border-right: 7px solid transparent;
+}
+.btn:hover{
+	border-bottom: 7px solid transparent;
+	color: #fff;
+	border-right: 7px solid #d26939;
+	
+}
+header .row{
+	align-items: center;
+	min-height: 100vh;
+}
+section{
+   padding: 100px 0;
+}
+.service-section{
+	background-color: #17C2A4;
+}
+.heading{
+	color: #fff;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.heading h1{
+	text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+}
+.heading span{
+	background-color: #00000038;
+	width: 80px;
+	height: 5px;
+	display: block;
+	margin: 10px auto;
+}
+.heading p{
+	font-weight: 400;
+    font-size: 16px;
+   
+}
+
+.service{
+    text-align: center;
+ 
+}
+.service img{}
+.service h2{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 40px 0 20px;
+	font-weight: 600;
+}
+.service p{
+	font-size: 13px;
+	color: #ffffffb8;
+	font-weight: 300;
+}
+.team-section{
+	background-color: #110C25BA;
+}
+.team-section.heading, 
+.skills-section .heading,
+.portfolio-section .heading{
+	color: #3C4761;
+
+}
+
+.team{
+    text-align: center;
+ 
+}
+
+.team-section h2{
+	color: #000000ad;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 40px 0 10px;
+	font-weight: 600;
+}
+.team-section p{
+	font-size: 13px;
+	color: #fff;
+	font-weight: 300;
+}
+.team-section h4{
+	font-size: 16px;
+    color: #00C4ff;
+    padding-bottom: 20px;
+}
+.team-section ul{
+	/* padding-left: 70px; */
+	justify-content: center;
+}
+.team-section ul li{
+    padding: 0 4px;
+}
+.team-section ul li a{
+    background: #BDD1DF;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 12px;
+    transition: all 0.4s ease;
+    float: left;
+}
+.team-section ul li a:hover{
+	background-color: #3C4761;
+}
+
+.skills{
+	text-align: center;
+}
+.skills div{
+    position: relative;
+}
+.skills div img{}
+.skills div h4{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    margin: 0;
+    font-size: 30px;
+    color: #3C476A;
+}
+.skills h2{
+    color: #000000AD;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 18px 0 10px;
+    font-weight: 600;
+}
+
+.portfolio-section{
+	background-color: #FFDD99;
+}
+.portfolio{
+	
+margin-bottom: 40px;
+	
+display: block;
+	
+text-align: center;
+}
+
+.portfolio-btn{
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.portfolio-btn li{
+    margin: 0 5px;
+}
+.portfolio-btn button{
+    border: 0;
+    background-color: #0000001a;
+    color: #3C476A;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+.portfolio-btn button:hover{
+	background: #fff;
+
+}
+
+.portfolio-btn button:focus{
+	outline: 0 dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+.portfolio img{}
+.portfolio h5{
+    margin-top: 10px;
+    color: #000000ad;
+    text-transform: uppercase;
+    font-size: 19px;
+    margin: 18px 0 0;
+    font-weight: 100;
+}
+
+.feedback-section{
+    background-color: #D74680;
+}
+.feedback{
+    color: #fff;
+    margin-bottom: 55px;
+}
+.row-feedback{}
+.feedback img{}
+.feedback p{font-style: italic;font-size: 17px;}
+.feedback h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0;
+    font-weight: 600;
+}
+.feedback h6{
+    color: #FFDD99;
+    font-size: 15px;
+}
+
+
+.Contact-section{
+	background-color: #3C5499;
+}
+.btn-sky-blue{
+    /* background: #30BAE7; */
+    border-bottom: 7px solid #299EC5;
+    background-color: #30BAE7;
+    border-right: 7px solid transparent
+}
+.btn-sky-blue:hover{
+    border-right: 7px solid #299EC5 !important;
+}
+
+
+.form-control {
+    f
+    padding: 20px 15px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #273A71;
+    background-clip: padding-box;
+    border: 1px solid #273A71;
+    display: inline;
+ }
+ .form-control:focus {
+    color: #ffffff;
+    background-color: #fff0;
+    border-color: #273A71;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+}
+::placeholder{
+	color: #fff !important; 
+}
+::-webkit-placeholder{
+	color: #fff !important; 
+}
+::-moz-placeholder{
+	color: #fff !important; 
+}
+::-ms-placeholder{
+	color: #fff !important; 
+}
+
+footer{
+    background-color: #344B8E;
+    padding: 20px 0;
+}
+footer ul{}
+footer ul li{}
+footer ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all 0.4s ease;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+footer ul li a:hover{
+    color: #ef9376c9;
+    text-decoration: none;
+}
+
+
